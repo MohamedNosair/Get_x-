@@ -38,6 +38,7 @@ dependencies:
   just_audio: ^0.9.46
   dartx: ^1.2.0
   get_storage: ^2.1.1
+  collection: ^1.19.1
 
 dev_dependencies:
   flutter_test:

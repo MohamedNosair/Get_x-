@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:testing_app/player_page.dart';
+import 'package:testing_app/stat_page.dart';
 
 
 Future<void> main() async {

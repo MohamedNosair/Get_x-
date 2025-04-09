@@ -5,6 +5,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:testing_app/player.dart';
 import 'package:testing_app/quiz_page.dart';
+import 'package:testing_app/stat_page.dart';
 
 class PlayerPage extends StatelessWidget {
   PlayerPage({super.key});
@@ -107,6 +108,7 @@ class PlayerPage extends StatelessWidget {
                   "the winner is ${winner.name} with score ${winner.score}",
                 );
                 file.write('winner', winner.name);
+                Get.to(StatPage(), arguments: players);
               },
               child: Text("winner"),
             ),
